@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "express-basic",
+        "scope": null,
+        "escapedName": "express-basic",
+        "name": "express-basic",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/Gumber/projects"
+    ]
+  ],
+  "_from": "express-basic@latest",
+  "_id": "express-basic@1.0.1",
+  "_inCache": true,
+  "_location": "/express-basic",
+  "_nodeVersion": "4.2.6",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/express-basic-1.0.1.tgz_1471885876068_0.8524721199646592"
+  },
+  "_npmUser": {
+    "name": "ritishgumber",
+    "email": "ritishgumber@gmail.com"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "express-basic",
+    "scope": null,
+    "escapedName": "express-basic",
+    "name": "express-basic",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/express-basic/-/express-basic-1.0.1.tgz",
+  "_shasum": "e15d5d4a3814e77d3314d24d4045ad08185e57e1",
+  "_shrinkwrap": null,
+  "_spec": "express-basic",
+  "_where": "/Users/Gumber/projects",
+  "author": {
+    "name": "Ritish Gumber"
+  },
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  },
+  "description": "Basic implementation of express module to quickstart your webapp project",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "e15d5d4a3814e77d3314d24d4045ad08185e57e1",
+    "tarball": "https://registry.npmjs.org/express-basic/-/express-basic-1.0.1.tgz"
+  },
+  "gitHead": "91e1c155981067b10df16167b31f8ac7db0a0386",
+  "keywords": [
+    "ritish",
+    "gumber",
+    "ritishgumber",
+    "node",
+    "express",
+    "basic",
+    "express-basic"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "ritishgumber",
+      "email": "ritishgumber@gmail.com"
+    }
+  ],
+  "name": "express-basic",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
