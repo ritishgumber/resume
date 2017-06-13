@@ -8,7 +8,7 @@ module.exports = function() {
     app.engine('html', require('ejs').renderFile);
 
     app.get('/', function(req, res) {
-        res.redirect("https://ritishdocs.s3.amazonaws.com/Ritish's%20Re%CC%81sume%CC%81%20(9).pdf1488950512084");
+        res.redirect("https://ritishdocs.s3.amazonaws.com/Ritish%20Gumber%20resume.pdf1497362808787");
     });
     return app;
 
