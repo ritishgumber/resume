@@ -1,9 +1,17 @@
 var express = require("express");
 var path = require('path')
+var cronjob = require('cron-job');
+const axios = require('axios')
 module.exports = function () {
     var app = express();
     app.set('port', process.env.PORT || 8888);
-
+    cronjob.startJobEveryTimegap(cronjob.date_util.getNowTimestamp(), 28 * 60, () => {
+        axios.get('http://resume.ritishgumber.me').then((response) => {
+            console.log('ritish resume', response.status);
+        }, (err) => {
+            console.log('resume err')
+        })
+    });
     app.use(express.static('public'));
     app.use(express.static('public'));
     app.engine('html', require('ejs').renderFile);

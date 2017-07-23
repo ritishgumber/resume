@@ -49,6 +49,8 @@
     "name": "Ritish Gumber"
   },
   "dependencies": {
+    "axios": "^0.16.2",
+    "cron-job": "^1.0.3",
     "ejs": "^2.4.1",
     "express": "^4.13.4"
   },
