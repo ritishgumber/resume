@@ -1,7 +1,6 @@
 {
   "_args": [
-    [
-      {
+    [{
         "raw": "express-basic",
         "scope": null,
         "escapedName": "express-basic",
@@ -49,8 +48,6 @@
     "name": "Ritish Gumber"
   },
   "dependencies": {
-    "axios": "^0.16.2",
-    "cron-job": "^1.0.3",
     "ejs": "^2.4.1",
     "express": "^4.13.4"
   },
@@ -73,12 +70,10 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "maintainers": [
-    {
-      "name": "ritishgumber",
-      "email": "ritishgumber@gmail.com"
-    }
-  ],
+  "maintainers": [{
+    "name": "ritishgumber",
+    "email": "ritishgumber@gmail.com"
+  }],
   "name": "express-basic",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
